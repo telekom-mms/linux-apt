@@ -1,0 +1,16 @@
+Package: corp-net-indicator
+Version: 0.0.1-1
+Architecture: amd64
+Maintainer: The MMS Linux Dev Team <mmslinux-dev@t-systems-mms.com>
+Installed-Size: 7815
+Depends: libc6, libcairo2, libcairo-gobject2, libgdk-pixbuf-2.0-0, libglib2.0-0, libgraphene-1.0-0, libgtk-4-1, libpango-1.0-0
+Priority: optional
+Section: net
+Filename: pool/main/c/corp-net-indicator/corp-net-indicator_0.0.1-1_amd64.deb
+Size: 7756554
+SHA256: 291ccd938c4bfd2218455b234d001607ccceb66c7d207621111bf8557cff953a
+SHA1: 3366be45a968726964aefb02e928c13209e1573b
+MD5sum: bda7cf069609c9f0a0a34e7be5b2a7d9
+Description: Corporate Network Status
+ Program to show network status and controls identity login and vpn connection.
+

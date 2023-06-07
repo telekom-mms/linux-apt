@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Codename: jammy
+Date: Wed, 07 Jun 2023 17:24:08 UTC
+Architectures: amd64
+Components: main
+Description: telekom-mms/linux-apt
+MD5Sum:
+ bd578637af5e22f09778cd2c8da71872 685 main/binary-amd64/Packages
+ 3835e923b206de29732c3f73225b865b 467 main/binary-amd64/Packages.gz
+ 4e7bf037e2314a33406112081391d162 71 main/binary-amd64/Release
+SHA1:
+ e09077572807f8252daab5464e0bd5ae23585eb9 685 main/binary-amd64/Packages
+ dd961c93d079346c1fa7fd81717f7cff6d4db053 467 main/binary-amd64/Packages.gz
+ cd55f6b0e3d65de45d877b11e47e987a2dc5be96 71 main/binary-amd64/Release
+SHA256:
+ 0b0f4dcfc0d4c9a04bc0458490ca0a38c827b2ecbfb9c7c3e6d9019b33b98ab3 685 main/binary-amd64/Packages
+ c5e699e3f81c5e219e09cf6484821428a9ebed0959e30ba9e520e43e4d2404eb 467 main/binary-amd64/Packages.gz
+ 5e8c7dbc216f399d0876f370c82524db1040d22eda52316ca83f23f1dedc6c06 71 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE1LtC/CPNqnwctpVyEjywSjQeyrkFAmSAvTgACgkQEjywSjQe
+yrk2bw/8CEVaWs9DOkiS2UDDOJ0Xkefu6mEVhRAQDGf7hj+Vyelf+j/EEXIwkbZh
+v0FIyRYFh3LZfODh+FJ7CWWlxeordFO39vGbaPtKMTZWoRew/Jz2iGt11piLBUrG
+yG7FYsn7404UmMgVLaMcnzyE+aT4xKZ7N4Q3GZUotSfwXLH9y2KczTUqxkANIfR2
+Fl35ivmw57dpKEHDxdcXrLQJMKHEgIZbpc3J8XYqLuiMTyC5kVa5XUl25iscUyIE
+KjvcYk+MesRHNmnGIr7xfKzImOF3EbEv/OJ7rUy+CEneKqwxO2hE8Pb5eRaj+pWq
+qoiIucw5ySukCnfhLsCTwsouiKvB/J0BCm1b+jPg4nB5q2myPH5aL8FEVORIHzrM
+41MKyFEi9YRJWLphV8bVNY7FggrhyzqQFFJeKRVOEkQzY14O430Gknh3RVFQ67+s
+xOrJ0TZ+ljOg8vTtjZJ/OoZLQlvt+5JV07OSns943JRZaHO55Jwo65ylKGu8kzJR
+Dnxu+w8wrpCO1ReHLK67go8lq+gtoQK3V39X27OrPD7JIP3t33NwjKEbd7BevwNB
+eNJLXwBqSUxbK5+vvwPGHHYwJzuffbsKb/cqKnbldLoAW1tz1TrD9CskNWr1bnh0
+m+l6b+lU8uMmZo6ZMIx4Cu0AbfeDNWh3Yxl+gdFvQCg6RYnDnWg=
+=EjGt
+-----END PGP SIGNATURE-----
