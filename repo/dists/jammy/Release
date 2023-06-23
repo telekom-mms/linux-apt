@@ -1,17 +1,17 @@
 Codename: jammy
-Date: Thu, 22 Jun 2023 20:00:58 UTC
+Date: Fri, 23 Jun 2023 11:26:07 UTC
 Architectures: amd64
 Components: main
 Description: telekom-mms/linux-apt
 MD5Sum:
- fc96251ccff5f3cace48bc74faf47650 1298 main/binary-amd64/Packages
- 13f32bc04f3ab4e064ba80d24e9365aa 698 main/binary-amd64/Packages.gz
+ 8666a0eb8048dac3de237f4c2d7509da 1298 main/binary-amd64/Packages
+ 80e0209801cc901d8864676eb6fd8226 694 main/binary-amd64/Packages.gz
  4e7bf037e2314a33406112081391d162 71 main/binary-amd64/Release
 SHA1:
- bc65458f02cb609742f61dba13bdc4716ec5f520 1298 main/binary-amd64/Packages
- 14b5ca39130cd9213590b8389e2eac364fd72511 698 main/binary-amd64/Packages.gz
+ e833434680412c2f207988502865244bd28fbbeb 1298 main/binary-amd64/Packages
+ c50812cd181db477ce4450e4b46832b5e972e00c 694 main/binary-amd64/Packages.gz
  cd55f6b0e3d65de45d877b11e47e987a2dc5be96 71 main/binary-amd64/Release
 SHA256:
- d1f1fde866f5c811e0452c2d831776c38fb809844362b53e2ad3b428adc170a4 1298 main/binary-amd64/Packages
- fff83da58bdb3e017efd49413969858b9ad88b319f59204f5e821039e40135b8 698 main/binary-amd64/Packages.gz
+ b7ec81e06fe54bcb70b9fec494a620254fc9f83825bd33fbf4f4e20ae5cda6b8 1298 main/binary-amd64/Packages
+ 445ee4ac0ba7cac058a9c8b9c8daa9b37fffd133a082aec115bb8cd5a978c961 694 main/binary-amd64/Packages.gz
  5e8c7dbc216f399d0876f370c82524db1040d22eda52316ca83f23f1dedc6c06 71 main/binary-amd64/Release
