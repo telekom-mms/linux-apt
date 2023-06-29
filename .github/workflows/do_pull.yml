@@ -1,0 +1,93 @@
+name: DoPullPackage
+
+on:
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: "telekom-mms repo to pull package from."
+        required: true
+      tag:
+        description: "Tag to pull."
+        required: true
+      version:
+        description: "Target version. (jammy, ...)."
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  pullPackage:
+    runs-on: ubuntu-22.04
+    env:
+      SUPPORTED_VERSIONS: |
+        jammy
+        lunar
+    steps:
+      - name: Pull Packages
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |+
+            const fs = require('fs');
+            const path = require('path');
+
+            if (!` ${{ env.SUPPORTED_VERSIONS }} `.replace(/[\n\t\r]/g, ' ').includes(' ${{ github.event.inputs.version }} ')) {
+              console.error('[${{ github.event.inputs.version }}] is a not supported version.');
+              process.exit(1)
+            }
+
+            let release;
+            try {
+              release = await github.rest.repos.getReleaseByTag({
+                owner: 'telekom-mms', 
+                repo: '${{ github.event.inputs.repo }}', 
+                tag: '${{ github.event.inputs.tag }}'
+              });
+            } catch {
+              console.error('Release for [${{ github.event.inputs.tag }}] not found.')
+              process.exit(1)
+            }
+
+            let anythingDownloaded = false
+            for(const asset of release.data?.assets ?? []) {
+              if (/\.deb$/.test(asset?.browser_download_url) || /checksums.txt$/.test(asset?.browser_download_url)) {
+                const filename = path.basename(asset.browser_download_url);
+                try {
+                  const res = await fetch(asset.browser_download_url, { redirect: 'follow' })
+                  if (!res.ok) {
+                    throw new Error(`Status ${res.status}`);
+                  }
+                  const blob = await res.blob()
+                  await fs.promises.writeFile(filename, blob.stream())
+                } catch {
+                  console.error(`Can not download and save [${asset.browser_download_url}].`);
+                  process.exit(1)
+                }
+                console.log(`Downloaded [${asset.browser_download_url}].`)
+                anythingDownloaded = true
+              }
+            }
+
+            if (!anythingDownloaded) {
+              console.error('Nothing downloaded. No packages found.')
+              process.exit(1)
+            }
+      - name: Validate Checksum
+        shell: bash
+        run: |+
+          if [[ -f "checksums.txt" ]] ; then
+            sha256sum -c --ignore-missing checksums.txt
+          fi
+      - name: Deploy Packages
+        uses: smeinecke/apt-repo-action@v2.1.4
+        with:
+          file: "*.deb"
+          file_target_version: ${{ github.event.inputs.version }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          repo_supported_arch: |
+            amd64
+          repo_supported_version: ${{ env.SUPPORTED_VERSIONS }}
+          public_key: ${{ secrets.PUB_KEY }}
+          private_key: ${{ secrets.PRV_KEY }}
+          key_passphrase: ${{ secrets.PASS_PHRASE }}
