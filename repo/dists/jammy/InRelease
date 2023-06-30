@@ -2,7 +2,7 @@
 Hash: SHA512
 
 Codename: jammy
-Date: Fri, 30 Jun 2023 06:20:28 UTC
+Date: Fri, 30 Jun 2023 09:21:35 UTC
 Architectures: amd64
 Components: main
 Description: telekom-mms/linux-apt
@@ -20,17 +20,17 @@ SHA256:
  5e8c7dbc216f399d0876f370c82524db1040d22eda52316ca83f23f1dedc6c06 71 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1LtC/CPNqnwctpVyEjywSjQeyrkFAmSedCwACgkQEjywSjQe
-yrnq1A//VSlme2AyflvwWgxLob0H3OD/JGkU5jtBmmiOWrM3PhZKPjeOtic488/4
-l06KzsU8NI40PaIHciSu/SYeOoJT1SJXw4XMBK5zhsxLXlsRvgE7333ULwO9V9Cg
-B9VaUd15iXLzGoB5jQNjo7jcxnd55UvDkXHcy6m953gSQMlYwvPEgeiUTjJMHv+b
-GOPtngYe+uvj3xiAMFTXqOEj8IVlMF+TL8AS6HmXRfhDL5uskc1MQEQL/Lb8awFs
-u43o5adTUJ+r1angSw9Gp+8xUeKLpr41ztFQQhQy5ojTF8IM32KkAyO2TGaJt0BO
-ldYrs86RKheBkdEtPGNrbpvcJ5x+FQ1GMZF/oWLhT8sk246oTPlHsJhEhWI0pubL
-BBkKQ3ESwPIw5wQDHgmby4+jwdor1FkJ09IyPknUQBUaMsr8VOT/Kst2SS0bi1j9
-8HIvyeUkiuJSmF/TCwVVNZaRg7diDi1YwAvc/7A4Uo+bW5lDggW/iSzijvGguHNt
-RWWhX/ykTD8o+uAWHM9LyyTUH2yS4+ZARIsBTeS14rETBllGBI1oOsl31YBBvcdJ
-0DkvCH0h2xGmMjz/5JHwGR1EXneRZnj3CpeAlFzpSm4N9csFkjuBucgV+XLQnmkQ
-57C8QVm4VI44ht4zCUa7BDSIUn0XHYrviv+m8qqzay6SKStYWAg=
-=/RGv
+iQIzBAEBCgAdFiEE1LtC/CPNqnwctpVyEjywSjQeyrkFAmSenp8ACgkQEjywSjQe
+yrmLRhAAtQkhTasEDVD6TVqytIiXEl6eSy+vcLnecAPbbxRnD+fpbk6ORca09QYt
+gFWlASErVPQSPlK92qDkdeR8mN6ky/W5IlPjdvGcDUnx8ZKhv+8RG8R/viMFaDNA
+XcIkqVYvqPcYHwO9/lyu9M7I7xsFTHgZO8kk5HW7ig/8jeZupqQ/oqViWn46Emw3
+tq/OcXPMTaCiaytr+cb8CSS/dai1q/Mzb2rptdM1n7cfZcnAkF7/iK/29b/9aXRa
+wHz39w2a8uwXATXJM357UFHW7Vofoa8kX/OKpIXimZrRnrGmuX4E5DxprYZEOye7
+mF4YgtRIeewncFRUjgKhVo0LpyBL/oeRMPdX6ya1gAkf4FLsoVizBe7OXHEV+m/k
+4k8Qrj9ajZS4R9SvZUuvQ51Cx2LMzM9iXcd1SozRCtzydvW+UMivpX6q2WG7q7JZ
+988T0gguHYx5a0hTp0X4bqaTMkFouhuADPseE4+NFnwYS863Ws8z4kfqA2Temlf0
+FdtoFG69wlGUAsd9+E28r1RvPcZ5jTEQy6fAQuN1/md3QQWQpkIUPf+QlylBgP9j
+oCBe7wiTLB4+P7MBGtbdfF6Sf7AEsebJUA4mq3h8wKr9Uji+mv1+u7Nd3rt/6oxD
+dmno+0PmIXGoHinYxAW3RaXxbl52HUU2Rtm/DdVLEyXOlZ2ZpEo=
+=XayV
 -----END PGP SIGNATURE-----
