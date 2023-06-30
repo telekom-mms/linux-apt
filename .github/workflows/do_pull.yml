@@ -22,7 +22,6 @@ jobs:
     env:
       SUPPORTED_VERSIONS: |
         jammy
-        lunar
     steps:
       - name: Pull Packages
         uses: actions/github-script@v6
