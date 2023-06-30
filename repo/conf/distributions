@@ -5,10 +5,3 @@ Components: main
 SignWith: D4BB42FC23CDAA7C1CB69572123CB04A341ECAB9
 
 
-Description: telekom-mms/linux-apt
-Codename: lunar
-Architectures: amd64
-Components: main
-SignWith: D4BB42FC23CDAA7C1CB69572123CB04A341ECAB9
-
-
