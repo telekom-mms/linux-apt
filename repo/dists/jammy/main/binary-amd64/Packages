@@ -30,3 +30,21 @@ MD5sum: 340fabe72a131a9ac5e75c6001bede91
 Description: OpenConnect Daemon
  Wraps OpenConnect to enhance functionality for corporate Linux clients.
 
+Package: tpmsbsigntool
+Version: 0.9.4-2
+Architecture: amd64
+Maintainer: Richard Robert Reitz <richard-robert.reitz@t-systems.com>
+Installed-Size: 90
+Depends: libc6 (>= 2.34), libssl3 (>= 3.0.0~~alpha1), tpm2-openssl
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Filename: pool/main/t/tpmsbsigntool/tpmsbsigntool_0.9.4-2_amd64.deb
+Size: 24846
+SHA256: 587615fbc8aa887285d3d5cd8df3b0420ee4694f1feb72ef8b6a7a00998aa772
+SHA1: 18b1cc7d82c009b237388c3b067e1f49531a8088
+MD5sum: b68e82176154089362e941891e5c49cd
+Description: Tools to sign UEFI binaries and drivers by the TPM
+ This package installs tools which can cryptographically sign EFI binaries and
+ drivers with the use of TPM.
+
