@@ -31,22 +31,22 @@ Description: OpenConnect Daemon
  Wraps OpenConnect to enhance functionality for corporate Linux clients.
 
 Package: sectpmctl
-Version: 1.1.4-1-1
+Version: 1.1.5-1
 Architecture: amd64
 Protected: yes
 Maintainer: Richard Robert Reitz <richard-robert.reitz@t-systems.com>
-Installed-Size: 228
+Installed-Size: 230
 Depends: efibootmgr, efitools, sbsigntool, tpmsbsigntool, binutils, mokutil, dkms, systemd, udev, util-linux (>= 2.34), gdisk, openssl, uuid-runtime, tpm2-tools, coreutils (>= 8.32), bash (>= 5.1)
 Conflicts: grub, grub-common, grub-efi, grub-efi-amd64, grub-efi-amd64-bin, grub-efi-amd64-signed, grub-pc, grub-pc-bin, grub2, grub2-common, lilo, os-prober, shim, shim-signed
 Replaces: grub, grub-common, grub-efi, grub-efi-amd64, grub-efi-amd64-bin, grub-efi-amd64-signed, grub-pc, grub-pc-bin, grub2, grub2-common, lilo, os-prober, shim, shim-signed
 Provides: grub, grub-common, grub-efi, grub-efi-amd64, grub-efi-amd64-bin, grub-efi-amd64-signed, grub-pc, grub-pc-bin, grub2, grub2-common, lilo, os-prober, shim, shim-signed
 Priority: optional
 Section: misc
-Filename: pool/main/s/sectpmctl/sectpmctl_1.1.4-1-1_amd64.deb
-Size: 56946
-SHA256: 7b2b07f87561ebf8e44beca44fc19f0a42b9d0104f096c6adaf2cff2a2ee59ad
-SHA1: a07808d3f2a158774d5b2bad533fdd3951ab1f68
-MD5sum: 4d1cb49d8f562a43e38102ad5049ccd2
+Filename: pool/main/s/sectpmctl/sectpmctl_1.1.5-1_amd64.deb
+Size: 57582
+SHA256: ffe6d2398c088168d36cae37dc4e5cd540dbb41602d1066198f07c0b10ab6376
+SHA1: c03e55c26b01a17b25a562e6ee5e166f07f58962
+MD5sum: 201a515a3c0a205e6724a89c7ae1ae87
 Description: Secure Boot and TPM2 backed LUKS full disc encryption
  The default of most Linux distributions is to use a password and eventually
  a recovery key to decrypt the encrypted root partition of a drive. sectpmctl
