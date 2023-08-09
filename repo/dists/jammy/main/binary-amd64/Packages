@@ -58,6 +58,25 @@ Description: Secure Boot and TPM2 backed LUKS full disc encryption
  system updates.
 Xb-Important: yes
 
+Package: sectpmctl-kmodsign-wrapper
+Version: 0.9.0-1
+Architecture: all
+Maintainer: Richard Robert Reitz <richard-robert.reitz@telekom.de>
+Installed-Size: 21
+Conflicts: diverts-usr++bin++kmodsign
+Provides: diverts-usr++bin++kmodsign
+Multi-Arch: foreign
+Priority: optional
+Section: config
+Filename: pool/main/s/sectpmctl-kmodsign-wrapper/sectpmctl-kmodsign-wrapper_0.9.0-1_all.deb
+Size: 3780
+SHA256: f5d112b3732d4cd50bb5a1ec189fd71883f600014573e7c3d5eb9a425e136952
+SHA1: 03e290c629cebb25e975b787dba3f4da49ca477a
+MD5sum: 6dd9b6fbf0372f4c6e4a83da339a3fab
+Description: SECTPMCTL kmodsign wrapper
+ This wrapper replaces kmodsign with a TPM2 backed version.
+ That integrates software which doesn't use DKMS.
+
 Package: tpmsbsigntool
 Version: 0.9.4-2-2
 Architecture: amd64
