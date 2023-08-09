@@ -59,7 +59,7 @@ Description: Secure Boot and TPM2 backed LUKS full disc encryption
 Xb-Important: yes
 
 Package: tpmsbsigntool
-Version: 0.9.4-2-1
+Version: 0.9.4-2-2
 Architecture: amd64
 Maintainer: Richard Robert Reitz <richard-robert.reitz@t-systems.com>
 Installed-Size: 91
@@ -67,11 +67,11 @@ Depends: libc6 (>= 2.34), libssl3 (>= 3.0.0~~alpha1), tpm2-openssl
 Multi-Arch: foreign
 Priority: optional
 Section: utils
-Filename: pool/main/t/tpmsbsigntool/tpmsbsigntool_0.9.4-2-1_amd64.deb
-Size: 25774
-SHA256: 5e00e8a779903266903c9e81677c585f8d56ef9278c2ed8c334fc069d241f10e
-SHA1: b79dca3d8a064332a9c0415d304a1f0914a3bb30
-MD5sum: 3c74fa852c6e3ba1946bc62948e73e6a
+Filename: pool/main/t/tpmsbsigntool/tpmsbsigntool_0.9.4-2-2_amd64.deb
+Size: 25814
+SHA256: 14863c00fe27e5b2d44c4c9fb21ee41eec2e82dd213b10b13f826e98120daf47
+SHA1: 03e01097281f55c56fa13d2ba9b23915b8b23026
+MD5sum: d501d76ea8d6d0843b1ea740f801789a
 Description: Tools to sign UEFI binaries and drivers by the TPM
  This package installs tools which can cryptographically sign EFI binaries and
  drivers with the use of TPM.
