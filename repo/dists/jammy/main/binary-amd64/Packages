@@ -78,7 +78,7 @@ Description: SECTPMCTL kmodsign wrapper
  That integrates software which doesn't use DKMS.
 
 Package: tpmsbsigntool
-Version: 0.9.4-2-2
+Version: 0.9.4-2-3
 Architecture: amd64
 Maintainer: Richard Robert Reitz <richard-robert.reitz@t-systems.com>
 Installed-Size: 91
@@ -86,11 +86,11 @@ Depends: libc6 (>= 2.34), libssl3 (>= 3.0.0~~alpha1), tpm2-openssl
 Multi-Arch: foreign
 Priority: optional
 Section: utils
-Filename: pool/main/t/tpmsbsigntool/tpmsbsigntool_0.9.4-2-2_amd64.deb
-Size: 25814
-SHA256: 14863c00fe27e5b2d44c4c9fb21ee41eec2e82dd213b10b13f826e98120daf47
-SHA1: 03e01097281f55c56fa13d2ba9b23915b8b23026
-MD5sum: d501d76ea8d6d0843b1ea740f801789a
+Filename: pool/main/t/tpmsbsigntool/tpmsbsigntool_0.9.4-2-3_amd64.deb
+Size: 25862
+SHA256: 0ecb529f46044ec7654f37289b91bc6b015eba0c4e9ad255d8e74ec2288f8158
+SHA1: 430a647fb2b809974e83e4ec5de02919bd6dab14
+MD5sum: 42a164cef383fee31e5542dbfae8b63c
 Description: Tools to sign UEFI binaries and drivers by the TPM
  This package installs tools which can cryptographically sign EFI binaries and
  drivers with the use of TPM.
