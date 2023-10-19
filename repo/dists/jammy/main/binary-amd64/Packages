@@ -15,18 +15,18 @@ Description: Corporate Network Status
  Program to show network status and controls identity login and vpn connection.
 
 Package: oc-daemon
-Version: 0.0.2-1
+Version: 0.1.0-1
 Architecture: amd64
 Maintainer: The MMS Linux Dev Team <mmslinux-dev@t-systems-mms.com>
-Installed-Size: 15160
+Installed-Size: 15040
 Depends: nftables, openconnect, init-system-helpers (>= 1.62)
 Priority: important
 Section: net
-Filename: pool/main/o/oc-daemon/oc-daemon_0.0.2-1_amd64.deb
-Size: 6841796
-SHA256: ce60f86552e2717bb718df971643b018403f0232682c5dfbc7e6a6b6f453bec2
-SHA1: 8e02a1c22dfb4089876efb87d2162b81e74c8147
-MD5sum: 340fabe72a131a9ac5e75c6001bede91
+Filename: pool/main/o/oc-daemon/oc-daemon_0.1.0-1_amd64.deb
+Size: 6611510
+SHA256: 5921a96c4789ff13437e94dc20cf9663ae123988e5162dca8900d85b32d684ff
+SHA1: b7982b81b7d713ed68b613e26e9bbb0ffafd8e5c
+MD5sum: 93dec227812a0b1b0b175410414fc840
 Description: OpenConnect Daemon
  Wraps OpenConnect to enhance functionality for corporate Linux clients.
 
