@@ -14,6 +14,22 @@ MD5sum: 3f5ec53488e4b0fc350e2a4eb3699c4f
 Description: Corporate Network Status
  Program to show network status and controls identity login and vpn connection.
 
+Package: fw-id-agent
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: The MMS Linux Dev Team <mmslinux-dev@t-systems-mms.com>
+Installed-Size: 11993
+Depends: init-system-helpers (>= 1.62)
+Priority: important
+Section: net
+Filename: pool/main/f/fw-id-agent/fw-id-agent_0.1.0-1_amd64.deb
+Size: 5220134
+SHA256: 7bd6e7ae6aaa2d5f65271950617a1c1aedc0da161ab1ec2e98e7f14d42396e50
+SHA1: 27dd01c55891bf94ee94778dfea816f045887ab8
+MD5sum: ff4ab0796ca6fba157573c29079eb7ed
+Description: Firewall Identity Agent
+ Agent to log on to the corporate firewall.
+
 Package: oc-daemon
 Version: 0.1.0-1
 Architecture: amd64
