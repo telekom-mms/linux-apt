@@ -15,19 +15,19 @@ Description: Corporate Network Status
  Program to show network status and controls identity login and vpn connection.
 
 Package: fw-id-agent
-Version: 1.1.0-1
+Version: 1.1.1-1
 Architecture: amd64
 License: MIT
 Maintainer: The MMS Linux Dev Team <mmslinux-dev@t-systems-mms.com>
-Installed-Size: 12733
+Installed-Size: 12773
 Depends: init-system-helpers (>= 1.62)
 Priority: important
 Section: net
-Filename: pool/main/f/fw-id-agent/fw-id-agent_1.1.0-1_amd64.deb
-Size: 5503702
-SHA256: 17fa3c297e883a9012980816c60ea0717e0cd1d71b281eaa5a3e140ed9c34f3d
-SHA1: 3597fee0448c85a78421c64121ad184ab8ff0d0a
-MD5sum: aa3e295568ba47fc083de4fbaba56871
+Filename: pool/main/f/fw-id-agent/fw-id-agent_1.1.1-1_amd64.deb
+Size: 5515352
+SHA256: 8637df88c65225822d4aeef7274b4c18d7b532a65eedfd86a7323483e2695785
+SHA1: 838cf8ab847edd63ff526a76bcd119d97115a619
+MD5sum: d678452b8ed0fff380790b6f2eaf0d70
 Description: Firewall Identity Agent
  Agent to log on to the corporate firewall.
 
