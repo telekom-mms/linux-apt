@@ -2,35 +2,35 @@
 Hash: SHA512
 
 Codename: jammy
-Date: Wed, 11 Jun 2025 14:36:29 UTC
+Date: Mon, 22 Sep 2025 13:07:02 UTC
 Architectures: amd64
 Components: main
 Description: telekom-mms/linux-apt
 MD5Sum:
- af1579bb0ff69a566a1a88022863368a 5145 main/binary-amd64/Packages
- 72f9ff65e37156bf3d4b656cb2db44a3 2157 main/binary-amd64/Packages.gz
+ df4db1fff93415a5953471fe5a8ddc67 5145 main/binary-amd64/Packages
+ 03cfb8f6411f8c9bb3d3c3055583d852 2153 main/binary-amd64/Packages.gz
  4e7bf037e2314a33406112081391d162 71 main/binary-amd64/Release
 SHA1:
- 7a871d57f47714626af4e503baa528a12772a3f4 5145 main/binary-amd64/Packages
- 93735b46cc28c116799d42ca61f6dffa9929bdc2 2157 main/binary-amd64/Packages.gz
+ 16ea19cf13c65e238657c506dcd4dc35dba549a8 5145 main/binary-amd64/Packages
+ 0d7e7e9835edebb4b3bad4aa8efb68dec18c46e4 2153 main/binary-amd64/Packages.gz
  cd55f6b0e3d65de45d877b11e47e987a2dc5be96 71 main/binary-amd64/Release
 SHA256:
- e45b616f6b04dfb0865b3d67bee2049c04b4800dd04191e7808c777c3f3870a6 5145 main/binary-amd64/Packages
- 89590c58aff9ffe1fc2e50f16f53ca2f7d0fc1c20bc670452d4ba5649e38f44a 2157 main/binary-amd64/Packages.gz
+ 9915e0d8dd5fc3854c5559f5e1ec919516f7df9a37635777b4d01dd2a437e2a1 5145 main/binary-amd64/Packages
+ 50ff761ea914b850d44ad59ea81898e496821f330fcbf2a302bf0da0a80743a7 2153 main/binary-amd64/Packages.gz
  5e8c7dbc216f399d0876f370c82524db1040d22eda52316ca83f23f1dedc6c06 71 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1LtC/CPNqnwctpVyEjywSjQeyrkFAmhJlG0ACgkQEjywSjQe
-yrm1xBAAvztbtYKz8g7NvaDty7KhnYE6TxIZ2OMY7U/wkmYXTp2jgu0sJVnBYqbp
-W/M1sUQ162MA0wWZC3Jf/WXCTuQ0TmrafhWsn/T+I8aPNn87zOFLjQfqtrbjpdC6
-IzvIV3WzMjdwjp47VviRptVLmfaYbqeqzmFVYb/oueq1evbKz5Gk597r0NI6KPcT
-f7Gmv2ZeFHxVDTQLgrTjCFQjTOtuZhF5yVWFoO+Zqvn8WLryt3xG8kNNpGgrw/NQ
-G3bN/yeg1Nwczc8YkFHg7FLk8nLkfkoMmSWUq8WcjaRIa6p1NG8ht33CnLilHEe6
-00K65wwCh/bnuHG03qJfBMxEvB8JpisG3J/xJU4X8a3HWodYt4wzUyM7AnxdSF2d
-HBxDHTVJ59aqyURe5aaG1XW+YH/GgOw5nHgKjs1aTh+orPr1FCWnki7db2/1Va1D
-XQpxdmWBGtJcRVL9CCfTMelV3blNn8xvPI6IG51/SK1m2Jx5HIikdowaDUurNcB/
-nYawTPtsJXrJrthsKaxkp/hgSCkrmjCiBuG4biP3Re38rVE7W3J7Or5d0cqhoZok
-ZNmV+T0cZeH55itlo9Ae3ndfv0UigDJtoO7vP4thJK1PgnxxP/qDckK364GjJ4mK
-UF4utfOYrAa+xmqJxIlIK5VrrjETs99fCJXp+ZrKRrDG6PHgYSM=
-=5GsC
+iQIzBAEBCgAdFiEE1LtC/CPNqnwctpVyEjywSjQeyrkFAmjRSfYACgkQEjywSjQe
+yrngkw/9E9Dy5P6koalZ5DpH14T6U/Xta/au8wcjyJa5L8MwF05GZn2QOJBiuFi+
+E1mi1ADy9PU+uV/k1eC04FUaGitFz3sC3lsD+v1NfflyPf0/grCrFm0Z6hlStkrS
+XugUVBdf69Cad+Zgt0Hd5CkcHfGehSwC8RtVxlu6WyFobje2ZZXkM3O/3d829ee1
+v2zPvWUGGpUKHjAeP0xXwsv6XoA6MyP4TRtZNk+pekgQYt0o/teWDESpLG341DVP
+92m6r+LXKx++5s6xtOmAoVBoUfegVHvq3r/FsG0yd6bMqWVXU/sr6dqk5aUmlH6p
+tDBv4JqOXugzmlpfT/R4UMaWatoqHD0+sTEEVWWGoW+1U1bgtupC9ZrMoGInBLQS
+xGP5Tnpt7oH2Ps77H3aIZD2ZGC3HvfXUz3hm+OgeBb4ugVAc6utQMPJRKxMPLy0C
+DPYT2+DwffPZfiVLvn7Vbb1XSu2LSevytgH3SmFVN9luRATIQINiQ9ouzVRCcTOm
+UaUc5ijr0cWSTzmOMFCjngpf/ovUBGOGnyFTrBD847C0/aXL2vfeG44VFNsuFSFV
+K1Qb/2492KuLnBJqXnwWuST0ujbGBJsrBPLYRCaT7iEXj4vT/OTlIhcpeM2wh4PE
+iGP1q+r5B6iwoCIMRolP9SBnm8sbi4k7/opdSPxfb/sPXjF77Qo=
+=JxhY
 -----END PGP SIGNATURE-----
