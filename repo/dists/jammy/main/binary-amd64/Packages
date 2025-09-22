@@ -33,19 +33,19 @@ Description: Firewall Identity Agent
  Agent to log on to the corporate firewall.
 
 Package: oc-daemon
-Version: 1.5.0-1
+Version: 1.6.0-1
 Architecture: amd64
 License: MIT
 Maintainer: The MMS Linux Dev Team <mmslinux-dev@t-systems-mms.com>
-Installed-Size: 19330
+Installed-Size: 19479
 Depends: nftables, openconnect, init-system-helpers (>= 1.62)
 Priority: important
 Section: net
-Filename: pool/main/o/oc-daemon/oc-daemon_1.5.0-1_amd64.deb
-Size: 8203160
-SHA256: 2a498c5a51165986eee72fe501bdbfaca45bd4de1f84eea1ed0f4fa0f5e80b95
-SHA1: b21f7f0a08d61298f488ab4ea183fcd6efbf3e1c
-MD5sum: 4db1278c9f81e407bc4445a5a299ba13
+Filename: pool/main/o/oc-daemon/oc-daemon_1.6.0-1_amd64.deb
+Size: 8334832
+SHA256: 80edfc6b1d4edd9f752634c0bb01140b5b1fb16da4f71507cb58b55fbbdb70b3
+SHA1: 7e77b0a7ecac289d2edc60fa11bdd3a799d74e25
+MD5sum: 86c776c1d5f10e3d8163e9c93d3fa24a
 Description: OpenConnect Daemon
  Wraps OpenConnect to enhance functionality for corporate Linux clients.
 
